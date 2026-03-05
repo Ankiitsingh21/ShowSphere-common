@@ -4,9 +4,7 @@ export * from './errors/request-validation-error';
 export * from './errors/not-authorised-error';
 export * from './errors/database-connection-error';
 export * from './errors/custom-error';
-
-
-export * from './middlewares/current-user'
-export * from './middlewares/error'
-export * from './middlewares/require-auth'
-export * from './middlewares/validate-request'
+export * from './middlewares/current-user';
+export * from './middlewares/error';
+export * from './middlewares/require-auth';
+export * from './middlewares/validate-request';
