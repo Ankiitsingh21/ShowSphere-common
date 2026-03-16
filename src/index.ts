@@ -27,3 +27,5 @@ export * from './events/order-cancelled-event';
 export * from './plugin/updateIfCurrentPlugin'
 
 export * from './events/expiration-complete';
+
+export * from './events/payment-created-event';
