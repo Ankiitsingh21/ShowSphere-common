@@ -25,7 +25,6 @@ export abstract class Listener<T extends Event> {
       .setAckWait(this.ackWait)
       .setDurableName(this.queueGroupName);
   }
-
   listen() {
     const subscription = this.client.subscribe(
       this.subject,
