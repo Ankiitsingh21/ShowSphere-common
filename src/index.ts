@@ -29,3 +29,8 @@ export * from './plugin/updateIfCurrentPlugin'
 export * from './events/expiration-complete';
 
 export * from './events/payment-created-event';
+
+
+
+
+export * from './events/user-created-event';
