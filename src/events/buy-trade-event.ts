@@ -7,7 +7,7 @@ export interface BuyTrade {
                 userId:string,
                 symbol:string,
                 type: TradeType,
-                quantity:number,
-                price:number
+                quantity:any,
+                price:any
         }
 } 
