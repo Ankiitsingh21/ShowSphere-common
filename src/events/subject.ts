@@ -12,7 +12,8 @@ export enum Subjects {
 
   UserCreated = 'user-created',
 
-  BuyTrade ='buy-trade'
+  BuyTrade ='buy-trade',
+  SellTrade = 'sell-trade'
 }
 
 export enum TradeType{
