@@ -34,3 +34,5 @@ export * from './events/payment-created-event';
 
 
 export * from './events/user-created-event';
+
+export * from './events/buy-trade-event';

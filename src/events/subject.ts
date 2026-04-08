@@ -10,5 +10,12 @@ export enum Subjects {
 
   PaymentCreated = 'payment-created',
 
-  UserCreated = 'user-created'
+  UserCreated = 'user-created',
+
+  BuyTrade ='buy-trade'
+}
+
+export enum TradeType{
+        Buy="BUY",
+        Sell="SELL"
 }
