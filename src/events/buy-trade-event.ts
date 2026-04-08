@@ -1,7 +1,7 @@
 import { Subjects, TradeType } from "./subject";
 
 
-export interface BuyTrade {
+export interface BuyTradeEvent {
         subject:Subjects.BuyTrade,
         data:{
                 userId:string,
