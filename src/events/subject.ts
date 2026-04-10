@@ -20,3 +20,10 @@ export enum TradeType{
         Buy="BUY",
         Sell="SELL"
 }
+
+export enum TradeStatus { 
+  PENDING,
+  MATCHED,
+  EXPIRED,
+  CANCELLED
+}
