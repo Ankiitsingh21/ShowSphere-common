@@ -22,8 +22,8 @@ export enum TradeType{
 }
 
 export enum TradeStatus { 
-  PENDING,
-  MATCHED,
-  EXPIRED,
-  CANCELLED
+  PENDING="PENDING",
+  MATCHED="MATCHED",
+  EXPIRED="EXPIRED",
+  CANCELLED="CANCELLED"
 }
