@@ -1,6 +1,6 @@
 {
   "name": "@showsphere/common",
-  "version": "3.0.37",
+  "version": "3.0.38",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
