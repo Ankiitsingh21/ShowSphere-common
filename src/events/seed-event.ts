@@ -11,7 +11,7 @@ type Stock = {
 };
 
 export interface SeedEvent{
-        Subject:Subjects.Seed;
+        subject:Subjects.Seed;
         data:{
                 stocks:Stock[]
         }
