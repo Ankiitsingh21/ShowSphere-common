@@ -4,10 +4,10 @@ import { Subjects } from "./subject";
 type Stock = {
   id: string;
   symbol: string;
-  price: number;
+  price: any;
   version: number;
-  createdAt: string;
-  updatedAt: string;
+  createdAt: Date;
+  updatedAt: Date;
 };
 
 export interface SeedEvent{
