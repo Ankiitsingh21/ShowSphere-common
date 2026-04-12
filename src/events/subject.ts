@@ -2,29 +2,29 @@ export enum Subjects {
   TicketCreated = "ticket:created",
   TicketUpdated = "ticket:updated",
 
-  
-  OrderCreated = 'order:created',
-  OrderCancelled = 'order:cancelled',
+  OrderCreated = "order:created",
+  OrderCancelled = "order:cancelled",
 
-  ExpirationComplete = 'expiration:complete',
+  ExpirationComplete = "expiration:complete",
 
-  PaymentCreated = 'payment-created',
+  PaymentCreated = "payment-created",
 
-  UserCreated = 'user-created',
+  UserCreated = "user-created",
 
-  BuyTrade ='buy-trade',
-  SellTrade = 'sell-trade',
-  Seed = 'SEED'
+  BuyTrade = "buy-trade",
+  SellTrade = "sell-trade",
+  Seed = "SEED",
+  TradeExecuted = "trade:executed",
 }
 
-export enum TradeType{
-        Buy="BUY",
-        Sell="SELL"
+export enum TradeType {
+  Buy = "BUY",
+  Sell = "SELL",
 }
 
-export enum TradeStatus { 
-  PENDING="PENDING",
-  MATCHED="MATCHED",
-  EXPIRED="EXPIRED",
-  CANCELLED="CANCELLED"
+export enum TradeStatus {
+  PENDING = "PENDING",
+  MATCHED = "MATCHED",
+  EXPIRED = "EXPIRED",
+  CANCELLED = "CANCELLED",
 }

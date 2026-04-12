@@ -15,9 +15,3 @@ export const errorHandler = (
     errors: [{ message: "Something Went wrong" }],
   });
 };
-
-
-
-
-
-

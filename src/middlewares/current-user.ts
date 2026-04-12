@@ -19,8 +19,6 @@ declare global {
   }
 }
 
-
-
 export const currentUser = (
   req: Request,
   res: Response,
@@ -45,5 +43,3 @@ export const currentUser = (
 
   next();
 };
-
-

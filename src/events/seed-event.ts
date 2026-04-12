@@ -1,6 +1,5 @@
 import { Subjects } from "./subject";
 
-
 type Stock = {
   id: string;
   symbol: string;
@@ -10,9 +9,9 @@ type Stock = {
   updatedAt: Date;
 };
 
-export interface SeedEvent{
-        subject:Subjects.Seed;
-        data:{
-                stocks:Stock[]
-        }
+export interface SeedEvent {
+  subject: Subjects.Seed;
+  data: {
+    stocks: Stock[];
+  };
 }
