@@ -15,8 +15,8 @@ export enum Subjects {
   SellTrade = "sell-trade",
   Seed = "SEED",
   TradeExecuted = "trade:executed",
-  TradeOrderCreated = "Trade-order:created",
-  TradeOrderCancelled = "Trade-order:cancelled"
+  TradeOrderCreated = "trade-order:created",
+  TradeOrderCancelled = "trade-order:cancelled"
 }
 
 export enum TradeType {
