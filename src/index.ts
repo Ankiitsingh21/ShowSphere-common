@@ -38,3 +38,5 @@ export * from "./events/seed-event";
 export * from "./events/trade-executed-event";
 
 export * from "./events/Trade-Order_created-event"
+
+export * from "./events/trade-order-cancelled-event";
