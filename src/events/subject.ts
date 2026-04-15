@@ -31,3 +31,4 @@ export enum TradeStatus {
   CANCELLED = "CANCELLED",
   PARTIAL = "PARTIAL"
 }
+
